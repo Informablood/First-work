@@ -1,0 +1,53 @@
+:root{
+    --color-primary: #0096cc;
+    --color-primary-dark: #005472;
+    --color-white: #eee;
+    --color-black: #0f0f0f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.footer{
+    bottom: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: var(--color-primary-dark);
+}
+.aboutus{
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    color: var(--color-white);
+    font-size: 17px;
+    
+}
+.title_footer{
+    padding: 5px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.customer_service li{
+    padding: 5px;
+}
+
+.customer_service{
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    color: var(--color-white);
+    font-size: 17px;
+}
+    

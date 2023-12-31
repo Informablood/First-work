@@ -1,0 +1,20 @@
+:root{
+    --color-primary: #0096cc;
+    --color-primary-dark: #005472;
+    --color-white: #eee;
+    --color-black: #0f0f0f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+}
+.container{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+p{
+    padding: 50px;
+}
